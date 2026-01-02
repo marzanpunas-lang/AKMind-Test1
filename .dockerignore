@@ -1,0 +1,30 @@
+# Git files
+.git
+.gitignore
+
+# Node modules and dependencies
+node_modules/
+.yarn/
+.pnp.*
+
+# Build artifacts we don't need
+coverage/
+dist/
+pkg/
+
+# Development files
+*.md
+!README.md
+.editorconfig
+.eslintrc
+.prettierrc.js
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Don't exclude data if you need it
+# data/
